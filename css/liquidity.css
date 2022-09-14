@@ -235,10 +235,12 @@ ul {
 .boxtext h4 {
   font-size: 12px;
   margin-bottom: 45px;
+  color:var(--white);
 }
 
 .boxtext h2 {
   font-size: 36px;
+  color:var(--white);
 }
 
 .box-blue p i {
