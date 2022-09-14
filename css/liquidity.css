@@ -675,6 +675,7 @@ a.active {
   margin-bottom: 20px;
   position: relative;
   z-index: 9;
+  color:#FFFFFF
 }
 
 .textbox-blue p {
@@ -996,7 +997,7 @@ a.active {
   }
 
   .navbar-brand img {
-    max-width: 300px;
+    max-width: 200px;
   }
 
   .box-blue::before {
@@ -1054,8 +1055,9 @@ a.active {
   }
 
   .overlapimg,
-  .textbox-blue {
-    padding: 2rem 3rem;
+  .textbox-blue,
+  .overlap, .overlapborder {
+    padding: 2rem 1rem;
   }
 
   .third-innerpack {
@@ -1063,7 +1065,8 @@ a.active {
   }
 
   .platformspack img,
-  .productspack img {
+  .productspack img,
+  .heropack img {
     margin-bottom: 50px;
   }
 
@@ -1072,18 +1075,37 @@ a.active {
   }
 
   .productspack,
-  .platformspack {
-    padding: 8rem 0;
+  .platformspack,
+  .heropack,
+  .aboutpack {
+    padding: 8rem 0 3rem;
   }
 
-  .contentbar {
+  .contentbar,.fifthpack{
     padding: 3rem 0;
   }
 
   .contactbox {
     margin-bottom: 2rem;
     border-radius: 25px !important;
+    padding:2rem 1rem
   }
+  .contactbox p{
+    margin-bottom: 0;
+  }
+  .contactform input{
+    height: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    font-size: 18px;
+  }
+  .contactform textarea{
+    font-size: 18px;
+  }
+  contactform .btn-primary {
+    padding: 10px;
+    margin: 2rem 0;
+}
 
   .imagesidebox:before {
     display: none;
@@ -1092,19 +1114,25 @@ a.active {
   .imagesidebox img {
     border: 0
   }
+  h1 {
+    font-size: 38px !important;
+  }
 
-  h2 {
+  h2,.boxpack h4 {
     font-size: 32px !important;
   }
 
-  h3 {
-    font-size: 32px !important;
+  h3,.textbox-blue h2 {
+    font-size: 28px !important;
     max-width: 100% !important;
   }
 
   .copyrightbar a {
     margin-top: 20px;
     display: inline-block;
+  }
+  ul{
+    list-style-type: none!important;
   }
 
   .navbar.scrolled .navbar-nav {
@@ -1116,7 +1144,7 @@ a.active {
     background: var(--blue) !important;
   }
 
-  body {
+  body,html {
     overflow-x: hidden;
     width: 100%;
   }
@@ -1128,5 +1156,26 @@ a.active {
 .navbar ul li a:hover {
   color: var(--dark) !important;
 }
-
+.extra-p{
+  padding:25px!important
 }
+.platformsbox h5{
+  font-size: 14px!important;
+  margin: 0!important
+}
+.outline-cta-blue{
+  margin:2rem auto!important;
+  padding:1.25rem .5rem
+}
+.aboutpack {
+  background: url(../img/aboutbg_1.png) no-repeat right 15% #0f152d;
+  background-size: 100%;
+}
+p{
+  font-size: 16px!important;
+}
+footer img{
+  max-width: 230px;
+}
+}
+
