@@ -25,7 +25,8 @@ body {
   background-size: 100%;
   background-position: 0;
   font-family: 'Gilroy-Regular', sans-serif;
-  color: #555555
+  color: #555555;
+  zoom:80%
 }
 
 h2,
@@ -37,7 +38,7 @@ h6 {
 }
 
 .fnt-m {
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
 }
 
 .fnt-b {
@@ -50,7 +51,6 @@ h6 {
 
 * {
   transition: 400ms all ease-in-out;
-  letter-spacing: 2px;
 }
 
 :root {
@@ -105,17 +105,17 @@ h6 {
 
 h1 {
   font-size: 64px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.6;
 }
 
 .heropack p {
-  margin: 2rem 0;
+  margin: 2rem 0 0;
 
 }
 
@@ -124,6 +124,10 @@ p {
   text-decoration: none !important;
   margin-top: 4rem;
   display: inline-block;
+  letter-spacing: 3px;
+}
+.nav-link{
+  letter-spacing: 3px;
 }
 
 .secondpack {
@@ -164,6 +168,7 @@ footer,
 
 .videoplayer {
   cursor: pointer;
+  text-align: center;
 }
 
 ul {
@@ -175,7 +180,14 @@ ul {
 .secondpack {
   position: relative;
 }
-
+.secondpack p{
+  font-size: 24px;
+  font-family: 'Gilroy-Medium';
+}
+.secondpack ul{
+  font-size: 22px;
+  margin:3rem 0
+}
 .box-blue {
   min-height: 300px;
 }
@@ -204,18 +216,20 @@ ul {
 }
 
 .sixthpack h5 {
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 25px;
+  font-family: Gilroy-Medium;
+  letter-spacing: 3px;
 }
 
 .sixthpack h3 {
   font-size: 50px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
   margin-bottom: 20px;
 }
 
 .sixthpack p {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 5rem;
 }
 
@@ -233,14 +247,16 @@ ul {
 }
 
 .boxtext h4 {
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 45px;
   color:var(--white);
+  letter-spacing: 3px;
 }
 
 .boxtext h2 {
-  font-size: 36px;
+  font-size: 46px;
   color:var(--white);
+  line-height: 60px;
 }
 
 .box-blue p i {
@@ -255,7 +271,7 @@ ul {
 
 .thirdpack h3 {
   font-size: 42px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
   margin-bottom: 20px;
 }
 
@@ -267,13 +283,14 @@ ul {
   border: 2px solid var(--blue);
   border-radius: 15px;
   color: var(--blue);
-  font-size: 16px;
-  padding: 1.25rem 1.5rem;
+  font-size: 14px;
+  padding: 1.25rem 1.2rem;
   text-decoration: none !important;
   margin-top: 4rem;
   display: inline-block;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .outline-cta-blue i {
@@ -287,14 +304,15 @@ ul {
 .outline-cta-white {
   border: 2px solid var(--white);
   border-radius: 15px;
+  background-color: #1a262e;
   color: var(--white);
-  font-size: 16px;
-  padding: 1.25rem 2.5rem;
+  font-size: 18px;
+  padding: 1.25rem 4.5rem;
   text-decoration: none !important;
   margin-top: 4rem;
   display: inline-block;
-  font-family: 'Gilroy-Medium', sans-serif;
-  text-transform: uppercase;
+  font-family: Gilroy-Medium;
+  text-transform: capitalize;
 }
 
 .outline-cta-white i {
@@ -428,10 +446,15 @@ ul {
 .titlepack {
   text-align: center;
 }
-
+.titlepack h5{
+  font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-family: Gilroy-Medium;
+}
 .titlepack h3 {
   font-size: 50px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
   margin-bottom: 20px;
 }
 
@@ -444,14 +467,14 @@ ul {
 }
 
 .titlepack p {
-  font-size: 18px;
+  font-size: 20px;
   max-width: 75%;
   display: table;
   margin: 2rem auto 5rem;
 }
 
 .featboxes {
-  padding: 3rem 2rem;
+  padding: 3rem 2.5rem;
   border-radius: 25px;
   transition: 300ms all ease-in-out !important;
   margin-bottom: 25px;
@@ -459,12 +482,12 @@ ul {
 
 .featboxes h4 {
   font-size: 24px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
   margin-bottom: 30px;
 }
 
 .featboxes p {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Gilroy-Regular', sans-serif;
   margin-bottom: 30px;
 }
@@ -562,7 +585,7 @@ footer ul h5 {
   color: var(--white);
   margin-bottom: 25px;
   display: block;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
 }
 
 footer ul li a {
@@ -578,7 +601,7 @@ footer ul p {
   color: var(--white);
   font-size: 16px;
   display: inline-block;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
 }
 
 footer ul p+p {
@@ -637,13 +660,13 @@ a.active {
 
 .heropack {
   background: #0f152d;
-  padding: 15rem 0
+  padding: 10rem 0 6rem
 }
 
 .aboutpack {
   background: url(../img/aboutbg_1.png) no-repeat right center #0f152d;
   background-size: 40%;
-  padding: 15rem 0
+  padding: 15rem 0 10rem
 }
 
 .overlap {
@@ -671,7 +694,7 @@ a.active {
 
 .textbox-blue h2 {
   font-size: 42px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
   margin-bottom: 20px;
   position: relative;
   z-index: 9;
@@ -688,7 +711,7 @@ a.active {
 
 .textbox-white h2 {
   font-size: 42px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
   margin-bottom: 20px;
   position: relative;
   z-index: 9;
@@ -749,11 +772,12 @@ a.active {
 }
 
 .platformsbox {
-  margin: 6rem 0;
+  padding: 3rem 0;
 }
 
 .platformsbox h5 {
-  font-size: 32px;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
 }
 
 .platformsbox h3 {
@@ -790,7 +814,7 @@ a.active {
 }
 
 .contactbox {
-  padding: 5rem 3.5rem;
+  padding: 3rem 3.5rem;
   border: 1px solid #555555;
   margin-bottom: 5rem;
 }
@@ -806,7 +830,7 @@ a.active {
 .contactbox h2 {
   margin: 3rem 0;
   font-size: 38px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
   display: block;
 }
 
@@ -823,7 +847,7 @@ a.active {
 
 .form-section h2 {
   font-size: 52px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
 }
 
 .form-section p {
@@ -832,50 +856,52 @@ a.active {
 }
 
 .contactform label {
-  font-size: 30px;
+  font-size: 24px;
   color: #555555;
   margin-top: 30px;
 }
 
 .contactform input {
-  font-size: 24px;
+  font-size: 20px;
   color: #333333;
   border-radius: 0;
-  min-height: 100px;
+  min-height: 60px;
   padding: 15px;
   margin: 1rem 0;
-  border-color: #333333
+  border-color: #dadada
 }
 
 .contactform textarea {
-  font-size: 24px;
+  font-size: 20px;
   color: #333333;
   border-radius: 0;
   min-height: 200px;
   padding: 15px;
   margin: 1rem 0;
-  border-color: #333333
+  border-color: #dadada
 }
 
 .contactform .btn-primary {
   display: block;
-  padding: 30px;
+  padding: 20px;
   border-radius: 0;
   text-align: center;
-  width: 100%;
+  width: 30%;
   margin: 4rem 0;
-  font-size: 30px;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 22px;
+  font-family: Gilroy-Medium;
+  display: table;
+  background-color: var(--blue);
 }
 
 .productstwocol {
-  padding: 3rem 0
+  padding: 3rem 0 0
 }
 
 .productstwocol h2 {
   font-size: 52px;
   margin: 2rem 0;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
 }
 
 .productstwocol p {
@@ -890,7 +916,7 @@ a.active {
 .imgboxtext h2 {
   font-size: 52px;
   margin: 2rem 0;
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: Gilroy-Medium;
 }
 
 .imgboxtext p {
@@ -910,7 +936,7 @@ a.active {
 }
 
 .contentxtbox p {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
 }
 
@@ -957,13 +983,13 @@ a.active {
 }
 
 .twobox-blue p {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--white);
   min-height: 125px;
 }
 
 .twobox-white p {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--dark);
   min-height: 125px;
 }
@@ -982,7 +1008,13 @@ a.active {
   background: #0f152d;
   padding: 15rem 0;
 }
-
+.footercta.mttop{
+  margin-top:-300px;
+}
+.footercta.mttop .container{
+  border:0!important;
+  padding-top: 14rem;
+}
 @media (max-width:991px) {
 
   body,
@@ -1100,7 +1132,7 @@ a.active {
     font-size: 18px;
   }
   .contactform textarea{
-    font-size: 18px;
+    font-size: 20px;
   }
   contactform .btn-primary {
     padding: 10px;
