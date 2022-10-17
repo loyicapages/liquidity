@@ -230,7 +230,7 @@ ul {
 
 .sixthpack p {
   font-size: 20px;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .boxtext {
@@ -1215,3 +1215,23 @@ footer img{
 }
 }
 
+@media (max-width:668px) {
+
+  .twobox-blue{margin-top: 0!important;}
+  .second-innerpack{padding:0!important;margin:0!important}
+  .textbox-white{margin-top: 3rem!important;}
+  footer .container{border:0!important}
+  .start-df.mt-5{margin-top: 0!important;}
+  footer ul li a{font-size: 22px;}
+  .platformlist {padding: 0 3rem!important;}
+  .platformsbox h3 {font-size: 52px!important;}
+  .outline-cta-blue{font-size: 16px;}
+  .mb-5.pt-5.mt-5.pb-5{margin:0!important;padding:0!important}
+  .spacerline{display: none!important;}
+  .start-df.mb-5.pb-5{margin-bottom: 0!important;}
+  p{font-size: 22px!important;}
+  .overlap.mb-5.order-lg-3.textbox-white{margin-bottom: 0!important;  }
+  footer ul{margin:3rem 0}
+  .contact .second-innerpack{padding:25px!important;margin:0!important}
+  .contactform{text-align: left;}
+}
