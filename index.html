@@ -13,6 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+  <link rel="stylesheet" href="css/liquidity.css" />
 
 </head>
 
@@ -25,7 +26,7 @@
     <![endif]-->
   <nav class="navbar navbar-expand-lg position-fixed">
     <div class="container">
-      <a class="navbar-brand" href="/index.html"><img src="img/liquidity-logo.svg" alt="logo" width="400" /></a><button
+      <a class="navbar-brand" href="index.html"><img src="img/liquidity-logo.svg" alt="logo" width="400" /></a><button
         class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="las la-bars"></span>
@@ -57,7 +58,7 @@
         <div class="row center-df">
           <div class="col-lg-6 order-lg-2 text-end">
             <div class="videoplayer">
-              <img src="img/playerimg.svg" alt="Play" width="75%">
+              <button class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/uHXierD_ZlM" data-bs-target="#liquidityVideo"><img src="img/playerimg.svg" alt="Play" width="100%"></button>
             </div>
           </div>
           <div class="col-lg-6 text-white">
@@ -281,9 +282,27 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="js/bootstrap.min.js"></script>
+
         <script src="js/custom.js"></script>
         <link rel="stylesheet" href="css/line-awesome.min.css" />
-        <link rel="stylesheet" href="css/liquidity.css" />
+       
+        <div class="modal fade" id="liquidityVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>        
+                <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="" id="video" allow="autoplay; encrypted-media" width="100%" height="450" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <style>.modal-backdrop.show {opacity: var(--bs-backdrop-opacity);zoom: 3;}.modal.show .modal-dialog{max-width: 800px;margin-top: 10%;}.modal-content{background:none;}.video-btn{background: none;border:0;width: 80%;}.close{position: absolute;top: 0;right: 0;border-radius: 100px;width: 32px;height: 30px;}
+        </style>
 </body>
-
 </html>
