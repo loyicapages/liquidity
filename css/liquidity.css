@@ -1235,3 +1235,8 @@ footer img{
   .contact .second-innerpack{padding:25px!important;margin:0!important}
   .contactform{text-align: left;}
 }
+.bigpic{border-radius: 25px;}
+.customers{background-color: #0165e6; padding:6rem 0; text-align: center;}
+.customerblock{display: flex;align-items: center;justify-content: space-between;}
+.customerblock img{max-width: 200px;}
+.customers h2{font-size: 52px;color:#FFFFFF; margin-bottom:3rem}
